@@ -11,7 +11,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:hsl(180, 17%, 78%);
+    background:hsl(0, 0%, 96%);
     
     
     
@@ -128,6 +128,11 @@ button{
     font-weight: bold;
     margin-top: 25px;
     padding: 15px 88px;
+}
+button:hover{
+    background: hsl(70, 97%, 50%);
+    color: hsl(71, 62%, 36%);
+    cursor: pointer;
 }
 
 /*Media querie*/
